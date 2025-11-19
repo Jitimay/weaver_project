@@ -14,7 +14,9 @@ modules:
       handler: index.run
 
 app:
-  id: ari:cloud:ecosystem::app/project-weaver-prototype
+  runtime:
+    name: nodejs20.x
+  id: ari:cloud:ecosystem::app/6db7aa4e-8218-41fb-8edf-c0701fe781ce
 
 permissions:
   scopes:
@@ -23,4 +25,3 @@ permissions:
     fetch:
       backend:
         - '*' # Allow all for demo purposes, restrict in production
-

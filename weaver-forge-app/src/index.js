@@ -1,7 +1,7 @@
 import { fetch } from '@forge/api';
 
 // Configuration
-const ESP32_URL = 'http://YOUR_ESP32_IP_OR_URL/command'; // Replace with actual IP/URL
+const ESP32_URL = 'http://localhost:3000/command'; // Simulation server
 const TOTAL_SERVOS = 8;
 
 // Map Jira Status to Servo Angle (0-180)
