@@ -50,3 +50,4 @@ A kinetic art installation representing a Jira project in real-time.
 See `weaver-forge-app/README.md` (create this if needed) or standard Forge deployment instructions.
 Update `src/index.js` with the IP address of your ESP32.
 # weaver_project
+# weaver_project
