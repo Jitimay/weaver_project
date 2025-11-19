@@ -1,0 +1,26 @@
+modules:
+  trigger:
+    - key: issue-transitioned-trigger
+      function: main
+      events:
+        - avi:jira:issue:transitioned
+    - key: issue-created-trigger
+      function: main
+      events:
+        - avi:jira:issue:created
+
+  function:
+    - key: main
+      handler: index.run
+
+app:
+  id: ari:cloud:ecosystem::app/project-weaver-prototype
+
+permissions:
+  scopes:
+    - read:jira-work
+  external:
+    fetch:
+      backend:
+        - '*' # Allow all for demo purposes, restrict in production
+

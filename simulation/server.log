@@ -1,0 +1,34 @@
+nohup: ignoring input
+Simulation server running at http://localhost:3000
+Send POST requests to http://localhost:3000/command
+Received command: { cmd: 'SERVO', id: 0, val: 90 }
+Received command: { cmd: 'SERVO', id: 1, val: 180 }
+Received command: { cmd: 'STEPPER', id: 0, val: 100 }
+Received command: { cmd: 'RELAY', id: 0, val: 1 }
+Received command: { cmd: 'RELAY', id: 0, val: 0 }
+Received command: { cmd: 'SERVO', id: 0, val: 90 }
+Received command: { cmd: 'SERVO', id: 1, val: 180 }
+Received command: { cmd: 'STEPPER', id: 0, val: 100 }
+Received command: { cmd: 'RELAY', id: 0, val: 1 }
+Received command: { cmd: 'RELAY', id: 0, val: 0 }
+Frontend connected
+Frontend connected
+Frontend connected
+Frontend connected
+Received command: { cmd: 'SERVO', id: 0, val: 90 }
+Received command: { cmd: 'SERVO', id: 1, val: 180 }
+Received command: { cmd: 'STEPPER', id: 0, val: 100 }
+Received command: { cmd: 'RELAY', id: 0, val: 1 }
+Received command: { cmd: 'RELAY', id: 0, val: 0 }
+Frontend connected
+Frontend connected
+Received command: { cmd: 'SERVO', id: 0, val: 90 }
+Received command: { cmd: 'SERVO', id: 1, val: 180 }
+Received command: { cmd: 'STEPPER', id: 0, val: 100 }
+Received command: { cmd: 'RELAY', id: 0, val: 1 }
+Received command: { cmd: 'RELAY', id: 0, val: 0 }
+Received command: { cmd: 'SERVO', id: 0, val: 90 }
+Received command: { cmd: 'SERVO', id: 1, val: 180 }
+Received command: { cmd: 'STEPPER', id: 0, val: 100 }
+Received command: { cmd: 'RELAY', id: 0, val: 1 }
+Received command: { cmd: 'RELAY', id: 0, val: 0 }
