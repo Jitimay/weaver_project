@@ -1,7 +1,7 @@
 import { fetch } from '@forge/api';
 
 // Configuration
-const ESP32_URL = 'http://localhost:3000/command'; // Simulation server
+const ESP32_URL = 'https://simulation-as9lzsp2v-jitimay-josues-projects.vercel.app/command';
 const TOTAL_SERVOS = 8;
 
 // Map Jira Status to Servo Angle (0-180)
